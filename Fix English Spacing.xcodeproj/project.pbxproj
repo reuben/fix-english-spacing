@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B9A2F7917429C0B00BC9555 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9A2F7817429C0A00BC9555 /* Cocoa.framework */; };
+		1B9A2F8317429C0B00BC9555 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B9A2F8117429C0B00BC9555 /* InfoPlist.strings */; };
+		1B9A2F8B17429D1100BC9555 /* Headers in Resources */ = {isa = PBXBuildFile; fileRef = 1B9A2F8A17429D1100BC9555 /* Headers */; };
+		1B9A2F8E17429D9700BC9555 /* TPI_FES_PrimaryClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9A2F8D17429D9700BC9555 /* TPI_FES_PrimaryClass.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B9A2F7517429C0A00BC9555 /* Fix English Spacing.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fix English Spacing.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B9A2F7817429C0A00BC9555 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1B9A2F7B17429C0B00BC9555 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1B9A2F7C17429C0B00BC9555 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1B9A2F7D17429C0B00BC9555 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1B9A2F8017429C0B00BC9555 /* Fix English Spacing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fix English Spacing-Info.plist"; sourceTree = "<group>"; };
+		1B9A2F8217429C0B00BC9555 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1B9A2F8417429C0B00BC9555 /* Fix English Spacing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fix English Spacing-Prefix.pch"; sourceTree = "<group>"; };
+		1B9A2F8A17429D1100BC9555 /* Headers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Headers; path = ../../../../../../Applications/Textual.app/Contents/Headers; sourceTree = "<group>"; };
+		1B9A2F8C17429D9700BC9555 /* TPI_FES_PrimaryClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPI_FES_PrimaryClass.h; path = "Fix English Spacing/TPI_FES_PrimaryClass.h"; sourceTree = "<group>"; };
+		1B9A2F8D17429D9700BC9555 /* TPI_FES_PrimaryClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPI_FES_PrimaryClass.m; path = "Fix English Spacing/TPI_FES_PrimaryClass.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B9A2F7217429C0A00BC9555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9A2F7917429C0B00BC9555 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B9A2F6C17429C0A00BC9555 = {
+			isa = PBXGroup;
+			children = (
+				1B9A2F8C17429D9700BC9555 /* TPI_FES_PrimaryClass.h */,
+				1B9A2F8D17429D9700BC9555 /* TPI_FES_PrimaryClass.m */,
+				1B9A2F7E17429C0B00BC9555 /* Fix English Spacing */,
+				1B9A2F7717429C0A00BC9555 /* Frameworks */,
+				1B9A2F7617429C0A00BC9555 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B9A2F7617429C0A00BC9555 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B9A2F7517429C0A00BC9555 /* Fix English Spacing.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B9A2F7717429C0A00BC9555 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B9A2F7817429C0A00BC9555 /* Cocoa.framework */,
+				1B9A2F7A17429C0B00BC9555 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B9A2F7A17429C0B00BC9555 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B9A2F7B17429C0B00BC9555 /* AppKit.framework */,
+				1B9A2F7C17429C0B00BC9555 /* CoreData.framework */,
+				1B9A2F7D17429C0B00BC9555 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1B9A2F7E17429C0B00BC9555 /* Fix English Spacing */ = {
+			isa = PBXGroup;
+			children = (
+				1B9A2F8A17429D1100BC9555 /* Headers */,
+				1B9A2F7F17429C0B00BC9555 /* Supporting Files */,
+			);
+			path = "Fix English Spacing";
+			sourceTree = "<group>";
+		};
+		1B9A2F7F17429C0B00BC9555 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B9A2F8017429C0B00BC9555 /* Fix English Spacing-Info.plist */,
+				1B9A2F8117429C0B00BC9555 /* InfoPlist.strings */,
+				1B9A2F8417429C0B00BC9555 /* Fix English Spacing-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B9A2F7417429C0A00BC9555 /* Fix English Spacing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B9A2F8717429C0B00BC9555 /* Build configuration list for PBXNativeTarget "Fix English Spacing" */;
+			buildPhases = (
+				1B9A2F7117429C0A00BC9555 /* Sources */,
+				1B9A2F7217429C0A00BC9555 /* Frameworks */,
+				1B9A2F7317429C0A00BC9555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fix English Spacing";
+			productName = "Fix English Spacing";
+			productReference = 1B9A2F7517429C0A00BC9555 /* Fix English Spacing.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B9A2F6D17429C0A00BC9555 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = reub.in;
+			};
+			buildConfigurationList = 1B9A2F7017429C0A00BC9555 /* Build configuration list for PBXProject "Fix English Spacing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1B9A2F6C17429C0A00BC9555;
+			productRefGroup = 1B9A2F7617429C0A00BC9555 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B9A2F7417429C0A00BC9555 /* Fix English Spacing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B9A2F7317429C0A00BC9555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9A2F8317429C0B00BC9555 /* InfoPlist.strings in Resources */,
+				1B9A2F8B17429D1100BC9555 /* Headers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B9A2F7117429C0A00BC9555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9A2F8E17429D9700BC9555 /* TPI_FES_PrimaryClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1B9A2F8117429C0B00BC9555 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B9A2F8217429C0B00BC9555 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B9A2F8517429C0B00BC9555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1B9A2F8617429C0B00BC9555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1B9A2F8817429C0B00BC9555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = /Applications/Textual.app/Contents/MacOS/Textual;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = /Applications/Textual.app/Contents/Frameworks/;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fix English Spacing/Fix English Spacing-Prefix.pch";
+				HEADER_SEARCH_PATHS = /Applications/Textual.app/Contents/Headers/;
+				INFOPLIST_FILE = "Fix English Spacing/Fix English Spacing-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1B9A2F8917429C0B00BC9555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = /Applications/Textual.app/Contents/MacOS/Textual;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = /Applications/Textual.app/Contents/Frameworks/;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fix English Spacing/Fix English Spacing-Prefix.pch";
+				HEADER_SEARCH_PATHS = /Applications/Textual.app/Contents/Headers/;
+				INFOPLIST_FILE = "Fix English Spacing/Fix English Spacing-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B9A2F7017429C0A00BC9555 /* Build configuration list for PBXProject "Fix English Spacing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B9A2F8517429C0B00BC9555 /* Debug */,
+				1B9A2F8617429C0B00BC9555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B9A2F8717429C0B00BC9555 /* Build configuration list for PBXNativeTarget "Fix English Spacing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B9A2F8817429C0B00BC9555 /* Debug */,
+				1B9A2F8917429C0B00BC9555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B9A2F6D17429C0A00BC9555 /* Project object */;
+}

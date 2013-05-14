@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'Fix English Spacing' target in the 'Fix English Spacing' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+
+    #import "TextualApplication.h"
+#endif
